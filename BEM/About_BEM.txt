@@ -1,0 +1,23 @@
+BEM stands for Block Element Identifier
+    It helps you write HTML & CSS that are more easily perceivable and reusable.
+
+    By following this convention helps you a lot of time on your projects and avoids the creation of big CSS mess.
+
+    This is also a great choice when working with team
+
+To follow BEM convention we have to split the contents of a page into blocks.
+
+    A Block can be a button, header, footer or whatever.
+
+    Inside the block we have elements.
+        For example if it is a footer then inside the block we have title, paragraph, logo/icons and so, these are called elements
+
+    Since we want stuff to be reusable we have modifiers
+        Suppose if two elements have same pattern then we can modify one of them with different color, style and so.
+
+Naming convention of these levels should be:
+
+block
+block__element
+block__element--modifier
+

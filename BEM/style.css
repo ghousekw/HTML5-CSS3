@@ -1,0 +1,42 @@
+/* 
+card
+card__title
+card__title card__title--purple
+card__title card__title--green
+card__text
+card__button
+card__button card__button--purple
+card__button card__button--green
+*/
+.card{
+    width: 550px;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin: 25px;
+}
+.card__title{
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #212121;
+}
+.card__title--purple{color: #8225e2;}
+.card__title--green{color: #45fce4;}
+
+.card__text{
+    color:#616161;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.card__button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #212121;
+    color: #fff;
+    font-weight: 600;
+}
+.card__button--purple{background-color:#8225e2;}
+.card__button--green{background-color:#45fce4;}
