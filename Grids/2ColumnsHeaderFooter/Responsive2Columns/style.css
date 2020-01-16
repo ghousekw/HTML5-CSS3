@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10vw 30vw 10vw 10vw;
+    grid-gap: 1em;
+}
+header,footer{
+    grid-column: 1 / span 5;
+}
+main{
+    grid-column: 1 / span 3;
+}
+aside{
+    grid-column: span 2;
+}
+/* Responsiveness */
+@media (max-width: 768px){
+    aside,main{
+        grid-column: 1 / span 5;
+    }
+}
+body{
+    margin: 0 auto;
+    max-width: 56em;
+    padding: 1em 0;
+}
+.grid>*{
+    background: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
